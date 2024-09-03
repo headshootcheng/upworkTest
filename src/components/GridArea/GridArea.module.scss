@@ -1,0 +1,15 @@
+.gridArea{
+    @apply bg-white py-10  px-5 lg:px-20 flex flex-col items-center justify-center ;
+    &-container{
+        @apply h-fit w-full grid grid-cols-2 gap-8 max-w-[1280px] ;
+        >img{
+            @apply rounded-md w-full;
+        }
+        &-photo1{
+            @apply col-span-2;
+        }
+    }
+    &-btn{
+        @apply mt-10 bg-yellow-500 text-white text-lg font-bold z-10 rounded-md px-10 py-5 hover:bg-yellow-600;
+    }
+}

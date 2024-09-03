@@ -1,0 +1,31 @@
+.stepArea{
+    @apply h-full flex items-center justify-center bg-white py-24 px-8;
+    &-container{
+        @apply max-w-[1600px] text-black flex flex-col text-center;
+    }
+    &-subtitle{
+        @apply text-orange-500 text-lg font-bold uppercase;
+    }
+    &-title{
+        @apply lg:text-8xl text-6xl font-bold mt-5;
+    }
+    &-desc{
+        @apply  mt-5 lg:text-sm text-xs;
+    }
+    &-steps {
+        @apply mt-20 flex items-center xl:gap-4 gap-8  xl:flex-row flex-col;
+    }
+    &-step{
+        @apply flex flex-col items-center flex-1 justify-start h-[400px];
+        &-img{
+            @apply xl:w-full w-3/4 rounded-md flex justify-center items-center;
+        }
+        &-title{
+            @apply lg:text-3xl text-xl font-bold mt-4;
+        }
+
+        &-desc{
+            @apply  mt-4;
+        }
+    }
+}

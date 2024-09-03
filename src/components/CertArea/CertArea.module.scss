@@ -1,0 +1,15 @@
+.certArea{
+    @apply h-full flex items-center justify-center bg-white  xl:py-24 py-4 px-8;
+    &-container{
+        @apply max-w-[1600px] text-black flex flex-col text-center;
+    }
+    &-title{
+        @apply xl:text-6xl text-4xl font-bold mt-5;
+    }
+    &-certs{
+        @apply flex gap-4 items-center mt-20 xl:flex-row flex-col;
+        &-cert{
+            @apply flex-1  flex justify-center;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.sidenav{
+    @apply h-full w-0 fixed z-10 top-0 right-0 bg-white transition-all overflow-hidden;
+    &--active{
+        @apply w-full;
+    }
+    &>*{
+        @apply my-3 mx-4;
+    }
+    &-closebtn{
+        @apply flex justify-end text-4xl;
+    }
+    &-list{
+        @apply flex flex-col my-5;
+        >*{
+            @apply my-3;
+        }
+    }
+}

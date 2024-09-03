@@ -1,0 +1,13 @@
+.introArea{
+    background-color: #F7F7F7;
+    @apply h-fit w-full flex justify-center items-center py-10;
+    &-container{
+        @apply max-w-[1600px] text-black flex items-center justify-between flex-col xl:flex-row ;
+        &-img{
+            @apply flex-grow-0  w-[700px] object-contain xl:rounded-md;
+        }
+        &-text{
+            @apply flex-1 xl:ml-10 lg:text-xl text-lg leading-relaxed xl:mt-0 mt-10 text-justify xl:px-0  px-10 whitespace-pre-wrap;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.herobanner{
+    background-image: url("herobanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    @apply  h-[100vh] w-full bg-no-repeat relative z-0 flex items-center justify-center flex-col;
+    &-overlay{
+        @apply absolute opacity-50 h-full w-full bg-slate-900  ;
+    }
+    &-header{
+        @apply text-white z-10  lg:text-8xl text-6xl font-bold lg:w-1/2 w-3/4 text-center ;
+    }
+    &-intro{
+        @apply text-white z-10 text-sm mt-10  lg:w-1/2 w-3/4 text-center;
+    }
+    &-btn{
+        @apply mt-10 bg-yellow-500 text-white text-lg font-bold z-10 rounded-md px-10 py-5 hover:bg-yellow-600;
+    }
+}

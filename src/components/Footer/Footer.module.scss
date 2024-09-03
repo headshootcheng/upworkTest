@@ -1,0 +1,16 @@
+.footer{
+    background-color: #FFFFFF;
+    @apply h-full flex items-center justify-center xl:py-24  py-4 px-8;
+    &-container{
+        @apply max-w-[1600px] min-w-full text-black flex flex-col text-center xl:items-center;
+    }
+    &-content{
+        @apply xl:pb-[40px] pb-[20px] flex xl:flex-row flex-col xl:gap-16  gap-4 border-b-[1px] border-gray-400;
+        &-item{
+            @apply font-bold;
+        }
+    }
+    &-copyright{
+        @apply mt-5 text-gray-400; 
+    }
+}
