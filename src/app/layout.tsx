@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="preload" as="image" href="/herobanner.jpg"></link>
       <body className={inter.className}>
         <Header />
         {children}
