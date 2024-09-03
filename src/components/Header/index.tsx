@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import styles from "./header.module.scss";
+import styles from "./Header.module.scss";
 import MenuButton from "../MenuButton";
 import { navItems } from "@/data/navItems";
 
