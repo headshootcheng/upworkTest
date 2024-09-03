@@ -11,8 +11,9 @@
     "lint:style": "npx stylelint --fix src/**/*.css"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": "eslint --fix" 
-   },
+    "src/**/*.{ts,tsx}": "eslint --fix",
+    "src/**/*.scss": "npx stylelint --fix"
+  },
   "dependencies": {
     "husky": "^9.1.5",
     "lint-staged": "13.0.2",
